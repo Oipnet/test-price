@@ -29,3 +29,27 @@ services:
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
+    App\Service\AmazonMockService:
+        arguments:
+            $data:
+                0:
+                    'Abc jeux':
+                        price: 1410
+                    'Games-planet':
+                        price: 1620
+                1:
+                    'Media-games':
+                        price: 1800
+                    'Tous-les-jeux':
+                        price: 2444
+                2:
+                    'Micro-jeux':
+                        price: 2000
+                    'Top-Jeux-video':
+                        price: 2150
+                3:
+                    'Diffusion-133':
+                        price: 2900
+                4:
+                    'France-video':
+                        price: 3099
