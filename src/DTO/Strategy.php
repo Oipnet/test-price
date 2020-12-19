@@ -13,4 +13,5 @@ class Strategy
         'Meme état' => self::SAME_AVERAGE,
         'Tous les états' => self::ALL_AVERAGE
     ];
+    const STRATEGIES = [self::SAME_AVERAGE, self::ALL_AVERAGE];
 }
